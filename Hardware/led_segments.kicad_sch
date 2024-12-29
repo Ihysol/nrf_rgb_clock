@@ -1,0 +1,7996 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d9e37ee1-1b90-4a83-9642-56d25b1aff16")
+	(paper "A3")
+	(lib_symbols
+		(symbol "ProjectSymbols:WS2813B-5V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 7.366 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C965558"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS2813B-5V_0_0"
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "BO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "BI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WS2813B-5V_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 257.81 110.49) (xy 257.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c87cfd-2c3f-473d-801a-f34bf4058f12")
+	)
+	(wire
+		(pts
+			(xy 185.42 181.61) (xy 187.96 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036d941c-c0dc-4d25-80ec-21da714682e3")
+	)
+	(wire
+		(pts
+			(xy 185.42 138.43) (xy 187.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ea5189-ec1b-4c80-9e6f-c7e1d760417e")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08df9154-5b0a-43db-8544-a87d9a323301")
+	)
+	(wire
+		(pts
+			(xy 237.49 149.86) (xy 237.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094dd1e3-c2fe-450f-943e-f5e2b05d4f1e")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 135.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9c875b-dedb-402c-bab5-a9aa0ced9d75")
+	)
+	(wire
+		(pts
+			(xy 176.53 129.54) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5595c1-0b57-451f-ab3e-527f4dc5504a")
+	)
+	(wire
+		(pts
+			(xy 104.14 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12596749-4230-45b2-b90e-5754d3dd6996")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126c91fb-6f8a-463a-864e-cd7b5472f894")
+	)
+	(wire
+		(pts
+			(xy 165.1 138.43) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137601db-b0a2-4568-9d68-719d41822f23")
+	)
+	(wire
+		(pts
+			(xy 257.81 90.17) (xy 257.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1531d9e8-6abc-411f-827e-190c827e1f29")
+	)
+	(wire
+		(pts
+			(xy 86.36 186.69) (xy 78.74 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15817d5c-0535-4305-9a3a-b2341c7665b0")
+	)
+	(wire
+		(pts
+			(xy 297.18 162.56) (xy 81.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ac055a-ec25-42d3-9718-6ffd73ba7fca")
+	)
+	(wire
+		(pts
+			(xy 237.49 193.04) (xy 237.49 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b67cd9b-9f61-4fae-92cd-01857d8d2628")
+	)
+	(wire
+		(pts
+			(xy 246.38 186.69) (xy 248.92 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba358c2-dd92-4b68-b70e-03f0bb6c5307")
+	)
+	(wire
+		(pts
+			(xy 237.49 110.49) (xy 237.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be1e30f-c65b-49a1-80f3-eee6ce86ad2a")
+	)
+	(wire
+		(pts
+			(xy 293.37 143.51) (xy 287.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2f9a90-f42c-4fe8-95f0-b61328ccce14")
+	)
+	(wire
+		(pts
+			(xy 165.1 186.69) (xy 167.64 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f90f1f2-943e-4b65-b87f-7f854d3d1267")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 167.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f5109c-d7d4-43b9-9fb1-7056b28cc4e5")
+	)
+	(wire
+		(pts
+			(xy 104.14 181.61) (xy 106.68 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a82c90-b5ad-43fc-b240-ed6771a9f4ed")
+	)
+	(wire
+		(pts
+			(xy 115.57 193.04) (xy 115.57 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281353a0-aa15-4611-a4c4-33c3b8dad51d")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2878517e-2c3e-434c-973a-5e1935d37593")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298d9d3b-751a-4588-a5a0-a4f64a80ea70")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e22457-fb9c-4523-8446-60496e73c47a")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca76e75-b651-4b18-a45d-8bc2c23ae96c")
+	)
+	(wire
+		(pts
+			(xy 144.78 181.61) (xy 147.32 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8d082d-0a3d-483e-b759-ac244c4b8166")
+	)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd08e4a-7410-4874-bf0e-89283ab682e9")
+	)
+	(wire
+		(pts
+			(xy 124.46 138.43) (xy 127 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd22252-bdf2-4c3d-a228-ea406a94a0b0")
+	)
+	(wire
+		(pts
+			(xy 156.21 193.04) (xy 156.21 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff8a76d-1abf-4f4e-9c14-d39894573991")
+	)
+	(wire
+		(pts
+			(xy 278.13 149.86) (xy 278.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fff393d-71b2-4c28-8970-7995f7983351")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ec11e8-20f5-467b-9209-5080c8202a72")
+	)
+	(wire
+		(pts
+			(xy 297.18 120.65) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32667b46-8e7b-4950-900b-b1da6f796a68")
+	)
+	(wire
+		(pts
+			(xy 257.81 149.86) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3299543b-31e5-4f28-bda4-c9f514b91069")
+	)
+	(wire
+		(pts
+			(xy 226.06 138.43) (xy 228.6 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3432a15f-a061-4a64-ac9c-6d6626e22579")
+	)
+	(wire
+		(pts
+			(xy 226.06 186.69) (xy 228.6 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3660c2e8-0284-46d4-9968-0b8f5d86102c")
+	)
+	(wire
+		(pts
+			(xy 144.78 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d000c8-3919-4f44-93cd-f532c903bb64")
+	)
+	(wire
+		(pts
+			(xy 124.46 186.69) (xy 127 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374935ae-0472-48ac-97a8-2a0456c792b9")
+	)
+	(wire
+		(pts
+			(xy 278.13 90.17) (xy 278.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fecfe8-991e-477e-81a5-7c47d3396726")
+	)
+	(wire
+		(pts
+			(xy 287.02 138.43) (xy 297.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399c6b94-b5c8-414d-a240-c0bd6923fddf")
+	)
+	(wire
+		(pts
+			(xy 196.85 172.72) (xy 196.85 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccdd4bf-c07e-4fa8-9956-3563060946c9")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d252c4d-bca0-42ef-aaa0-e40a0a88ba06")
+	)
+	(wire
+		(pts
+			(xy 278.13 110.49) (xy 278.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cb9c30-df90-499c-8400-99d23a118603")
+	)
+	(wire
+		(pts
+			(xy 196.85 149.86) (xy 196.85 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ceffc1-8e4c-4818-b8a5-436697b659b2")
+	)
+	(wire
+		(pts
+			(xy 217.17 193.04) (xy 217.17 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440cb4f4-e083-4a5d-959f-8572c0f810c7")
+	)
+	(wire
+		(pts
+			(xy 293.37 119.38) (xy 293.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477ce360-d02e-494a-ae79-2ad6614259d0")
+	)
+	(wire
+		(pts
+			(xy 104.14 138.43) (xy 106.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff0b0c6-7119-4fba-b636-22a7dcd9e6f9")
+	)
+	(wire
+		(pts
+			(xy 237.49 172.72) (xy 237.49 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff8a78e-d672-4287-89a0-d844e130ede0")
+	)
+	(wire
+		(pts
+			(xy 176.53 149.86) (xy 176.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5042b3b5-175c-40bd-aacb-2e7238e6ee2f")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bdce1e-a554-4a93-93ec-84f8cf7e1e10")
+	)
+	(wire
+		(pts
+			(xy 165.1 181.61) (xy 167.64 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584db260-380b-4063-8cbf-5b5bed9a6a8b")
+	)
+	(wire
+		(pts
+			(xy 124.46 181.61) (xy 127 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d42ed0-fa04-48d1-a8a6-a7794a0ba811")
+	)
+	(wire
+		(pts
+			(xy 217.17 110.49) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7c2221-a1dc-4a64-858c-409706aed76b")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 156.21 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c02fb17-f550-4fd0-8411-1aac5139d657")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 208.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6cd515-96e9-4617-a21d-81231f69b5cf")
+	)
+	(wire
+		(pts
+			(xy 217.17 172.72) (xy 217.17 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc6ec6b-73bf-4c33-ac28-9522832bbb25")
+	)
+	(wire
+		(pts
+			(xy 257.81 129.54) (xy 257.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66308851-af9f-4a9d-8f92-882ebf45d5c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 110.49) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e4f891-b689-4adc-94c0-8857dc35fd9f")
+	)
+	(wire
+		(pts
+			(xy 176.53 193.04) (xy 176.53 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6897eff7-347e-4000-a3be-1e9c54ece75f")
+	)
+	(wire
+		(pts
+			(xy 115.57 129.54) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa6f309-2eda-46a2-a20a-f78a0a1a5fff")
+	)
+	(wire
+		(pts
+			(xy 144.78 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d94719e-292d-4169-81e7-0eb95d084ef0")
+	)
+	(wire
+		(pts
+			(xy 144.78 186.69) (xy 147.32 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e47395d-51a9-47ba-a441-fea04290ce93")
+	)
+	(wire
+		(pts
+			(xy 246.38 99.06) (xy 248.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d5c2e7-7161-4cfc-939e-b4cb62db625e")
+	)
+	(wire
+		(pts
+			(xy 176.53 172.72) (xy 176.53 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e88dcd-2cdb-429f-b274-d49315fe46f9")
+	)
+	(wire
+		(pts
+			(xy 86.36 143.51) (xy 78.74 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755379b3-3ef5-4140-a4f5-00928fb94160")
+	)
+	(wire
+		(pts
+			(xy 266.7 143.51) (xy 269.24 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76104c67-244c-46b4-963b-5d1c39c9682a")
+	)
+	(wire
+		(pts
+			(xy 278.13 129.54) (xy 278.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77222541-72cd-4531-b1b5-110952a81851")
+	)
+	(wire
+		(pts
+			(xy 135.89 172.72) (xy 135.89 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c161e6e-adef-4bab-997c-a1b6c30a77de")
+	)
+	(wire
+		(pts
+			(xy 297.18 138.43) (xy 297.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5b5d5d-df44-4302-bdc9-17f2333fd7f1")
+	)
+	(wire
+		(pts
+			(xy 217.17 149.86) (xy 217.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df83aa5-308d-4ba6-8a54-7d5fb59e7281")
+	)
+	(wire
+		(pts
+			(xy 226.06 181.61) (xy 228.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80346208-d032-4f8f-bb11-9ce43f32f824")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81aca881-21a0-49f1-a1e8-b03c3be8bc5f")
+	)
+	(wire
+		(pts
+			(xy 287.02 99.06) (xy 297.18 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82670529-f434-4dc2-95d7-530ca99eb666")
+	)
+	(wire
+		(pts
+			(xy 297.18 99.06) (xy 297.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837d4abf-d4ce-4f96-88a5-8a1e62e53ff5")
+	)
+	(wire
+		(pts
+			(xy 83.82 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838bb542-23b8-4052-a9c3-9c93c760d7a9")
+	)
+	(wire
+		(pts
+			(xy 95.25 149.86) (xy 95.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b07e37-c2c1-49be-ba0a-f9f4824197e0")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8509f80f-ab39-4fe6-bd6e-ec1fb2ae68ef")
+	)
+	(wire
+		(pts
+			(xy 81.28 181.61) (xy 86.36 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855d3b99-b113-483f-b1e7-49d590e3bba0")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887c84dc-4410-4f58-bea3-d2c590ab388a")
+	)
+	(wire
+		(pts
+			(xy 78.74 160.02) (xy 293.37 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8becba0b-aab7-40f5-ae7e-ee5ad51ccd70")
+	)
+	(wire
+		(pts
+			(xy 104.14 186.69) (xy 106.68 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a6d3ec-fb4f-4d19-a40a-6751c3421ff8")
+	)
+	(wire
+		(pts
+			(xy 124.46 143.51) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9415bb32-ad4a-4983-a537-1458ece145ff")
+	)
+	(wire
+		(pts
+			(xy 246.38 143.51) (xy 248.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96da2dd3-965d-4d80-93ef-dbf27a0f9baf")
+	)
+	(wire
+		(pts
+			(xy 78.74 119.38) (xy 293.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e36c73-4fb9-46bf-841d-09029aba2112")
+	)
+	(wire
+		(pts
+			(xy 266.7 138.43) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ae9702-e230-48d6-9f98-d147338a35e7")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0a08f6-0dfe-417c-8a7a-96c418325ae8")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 95.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bec65fe-0469-4ad7-9107-a09776039feb")
+	)
+	(wire
+		(pts
+			(xy 115.57 172.72) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d157e64-e778-46ad-aa71-f1f5c0509416")
+	)
+	(wire
+		(pts
+			(xy 196.85 129.54) (xy 196.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df28afd-b80a-49e4-918e-5391a3f05364")
+	)
+	(wire
+		(pts
+			(xy 185.42 143.51) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0195011-e597-4643-8299-c7badd4c4a9e")
+	)
+	(wire
+		(pts
+			(xy 83.82 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29e746c-7b11-47f7-bda9-4f9ab2e277d0")
+	)
+	(wire
+		(pts
+			(xy 217.17 129.54) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63b46f4-e668-4d0c-a80c-de13c27af02f")
+	)
+	(wire
+		(pts
+			(xy 226.06 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86afe3f-327d-4b9c-9c6b-60091f3cf194")
+	)
+	(wire
+		(pts
+			(xy 95.25 172.72) (xy 95.25 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b337b3-50f2-427e-8db6-2cbb8909b0d0")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b84ec3-ba62-40f2-8dbc-235fcaa621ac")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b148c0ae-8632-4399-b73c-bebb01f18f2d")
+	)
+	(wire
+		(pts
+			(xy 266.7 99.06) (xy 269.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3646dc8-6470-4bcd-83ef-b88245ab5426")
+	)
+	(wire
+		(pts
+			(xy 226.06 143.51) (xy 228.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ae3630-513a-47a9-ac8b-0bcc58f4d821")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bb3dca-31b1-4606-8b53-2c98284982ed")
+	)
+	(wire
+		(pts
+			(xy 81.28 138.43) (xy 86.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b833ad9c-a806-466e-93ce-75a66a610f95")
+	)
+	(wire
+		(pts
+			(xy 205.74 143.51) (xy 208.28 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13758e2-7ef5-45c7-b998-8e650b8e50e9")
+	)
+	(wire
+		(pts
+			(xy 156.21 172.72) (xy 156.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f331b7-5b0e-49c1-979d-ecb6c1285eef")
+	)
+	(wire
+		(pts
+			(xy 95.25 193.04) (xy 95.25 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c809588f-9a56-4561-b73d-d5d4fbd46cb5")
+	)
+	(wire
+		(pts
+			(xy 135.89 193.04) (xy 135.89 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95509e7-9be2-45bf-8912-d6d9f7cb1c2a")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9634529-7ba2-41d2-8030-cab72a3c5e01")
+	)
+	(wire
+		(pts
+			(xy 287.02 104.14) (xy 293.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4b545b-c0a1-403c-a4ce-9d0c87ce7c59")
+	)
+	(wire
+		(pts
+			(xy 205.74 186.69) (xy 208.28 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafa08b0-bde4-44ba-971f-ceec658b6a59")
+	)
+	(wire
+		(pts
+			(xy 237.49 129.54) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8555e7-e336-4580-a1d1-fd11ddebf1ec")
+	)
+	(wire
+		(pts
+			(xy 246.38 181.61) (xy 248.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ce2cba-0b4e-4f68-8666-9fb564c155a5")
+	)
+	(wire
+		(pts
+			(xy 78.74 186.69) (xy 78.74 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e53b8a-e51e-4aef-8d67-f326b203e8f1")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20ded35-b470-43fa-b103-c3f948338c2f")
+	)
+	(wire
+		(pts
+			(xy 237.49 90.17) (xy 237.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ebd9b1-b680-4367-b1be-1ee18801887e")
+	)
+	(wire
+		(pts
+			(xy 81.28 120.65) (xy 81.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fb29b9-09c2-45aa-b243-7eaeb071a60a")
+	)
+	(wire
+		(pts
+			(xy 78.74 143.51) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8289560-e6fb-4de6-a634-e8b595c0e81d")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e46b37-8f55-4ae7-9f1a-8238ebfad2cc")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5454c7d-0903-46ee-9153-7e18d7283efa")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b37896-97a5-4b94-8cf0-2a1240426eb9")
+	)
+	(wire
+		(pts
+			(xy 293.37 160.02) (xy 293.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73dfc8f-7e42-4dbd-9b30-b6438f4acecd")
+	)
+	(wire
+		(pts
+			(xy 156.21 110.49) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8735f-4fef-4489-aaed-955a54ee6949")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 81.28 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea132f7c-a509-4cd2-86d3-0cec77af84a8")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe541a9-7902-4331-8f1e-59b5964812be")
+	)
+	(wire
+		(pts
+			(xy 185.42 186.69) (xy 187.96 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1b4b4a-1b36-4f9f-b909-138aabc232d7")
+	)
+	(wire
+		(pts
+			(xy 156.21 149.86) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea5baf0-b4bc-49f9-806a-f3a4378a65dc")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0574114-4043-4b4a-8d70-c49d6d2e5e39")
+	)
+	(wire
+		(pts
+			(xy 196.85 193.04) (xy 196.85 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1600a5d-82df-416e-b861-62d099395db4")
+	)
+	(wire
+		(pts
+			(xy 135.89 149.86) (xy 135.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1891cc7-172f-4e7f-8b59-5039fa05293a")
+	)
+	(wire
+		(pts
+			(xy 205.74 181.61) (xy 208.28 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f427c3bd-6ed2-4bb9-95fd-9f2650a5a205")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61d3856-de32-4023-8e7d-9a2476f0d45b")
+	)
+	(wire
+		(pts
+			(xy 266.7 104.14) (xy 269.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90089f1-c5de-4bc0-8c41-392687e855b8")
+	)
+	(wire
+		(pts
+			(xy 205.74 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7f794e-31ff-42b9-a14f-c3a78ffb4288")
+	)
+	(wire
+		(pts
+			(xy 246.38 104.14) (xy 248.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdab5579-0ec8-4668-88e3-c54b3dd241f8")
+	)
+	(hierarchical_label "LED_BI"
+		(shape input)
+		(at 83.82 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01938130-caf9-4583-909d-f6493a94a68e")
+	)
+	(hierarchical_label "LED_DI"
+		(shape input)
+		(at 83.82 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b8538a1-6e70-4a2b-9a8f-574d2049db13")
+	)
+	(hierarchical_label "LED_BO"
+		(shape input)
+		(at 248.92 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eca7e27-5471-479a-8b41-9c9686eeb839")
+	)
+	(hierarchical_label "LED_DO"
+		(shape input)
+		(at 248.92 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8675635e-7542-41a3-82ff-080c154e2886")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "000e5d55-5743-4143-821e-3f1e4c9d6455")
+		(property "Reference" "#PWR0179"
+			(at 95.25 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8910629-7008-4da6-aa37-e41a4debc6b5")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084763ae-9806-43e6-aff3-83db7f9ea674")
+		(property "Reference" "#PWR0164"
+			(at 156.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4297314e-e50f-4505-b6dd-f78a4116de7b")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 176.53 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1a7db8-f188-4306-ac66-4044abd734ac")
+		(property "Reference" "D84"
+			(at 178.7241 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 178.7241 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 176.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 176.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 178.7241 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f99fe05f-de52-464c-8953-a27f6e1765d3")
+		)
+		(pin "1"
+			(uuid "1f0a568b-4d05-4c01-b5d3-0bf3642bc6fc")
+		)
+		(pin "3"
+			(uuid "faa8169b-684b-4599-939c-6f24cddc8ec0")
+		)
+		(pin "5"
+			(uuid "a7f70218-ea49-4f62-904b-c93dea52a8cd")
+		)
+		(pin "4"
+			(uuid "4d96f1b0-562b-4b1a-82f9-d13352abb333")
+		)
+		(pin "6"
+			(uuid "17065569-c6ad-4b89-8bfd-f2b9ad58a95c")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2bb02e-75fa-4494-a2da-fba84a711e12")
+		(property "Reference" "#PWR0163"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7657431-1adc-4c67-9bd4-7855f9351631")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 176.53 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ed3acb-517a-42c1-9eec-a3058b25cfba")
+		(property "Reference" "D64"
+			(at 178.7241 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 178.7241 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 178.7241 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "98a47b9d-ce18-44e2-88c4-9b09605b87bf")
+		)
+		(pin "1"
+			(uuid "0683875d-42f2-4d8a-aadf-d1198becb98d")
+		)
+		(pin "3"
+			(uuid "1e26da8d-aa60-4ff5-bcce-055887ea2a1b")
+		)
+		(pin "5"
+			(uuid "acc2cd41-f044-4c32-a812-d43efdcec759")
+		)
+		(pin "4"
+			(uuid "0fe28253-d5ed-46e1-837d-c2ca3f87b7f1")
+		)
+		(pin "6"
+			(uuid "4ed2cb24-e6e5-4da3-8708-6387dcecc1c9")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 95.25 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "129a793c-fdc0-47ed-9759-d8943a7bfd05")
+		(property "Reference" "D70"
+			(at 97.4441 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 97.4441 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 97.4441 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "39924d1b-748a-454c-95d7-168860e166ca")
+		)
+		(pin "1"
+			(uuid "3317063b-e311-4f9c-9618-f3e29e2e7702")
+		)
+		(pin "3"
+			(uuid "3dd4d2f4-a97d-468c-92ff-c907c9635329")
+		)
+		(pin "5"
+			(uuid "6351a115-4e9b-4420-881f-e90306bd6cfc")
+		)
+		(pin "4"
+			(uuid "2ca777ee-8e79-4181-9215-cb3ffd02ee32")
+		)
+		(pin "6"
+			(uuid "e6195d3d-d314-4f10-9157-019278e6da79")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "129faed1-02e0-43f5-928d-0f8bfa0f2c73")
+		(property "Reference" "#PWR0177"
+			(at 217.17 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e77618-40e8-4e9e-ab71-d45f657fbd2b")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 257.81 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141c81cb-dbf1-46a8-bbf7-f3faba176db7")
+		(property "Reference" "D68"
+			(at 260.0041 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 260.0041 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 260.0041 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "322a498d-b912-4416-b56f-1a5b9c3aea30")
+		)
+		(pin "1"
+			(uuid "dbc5cb6c-7c51-4cb5-aa56-1192f3ed034b")
+		)
+		(pin "3"
+			(uuid "365e5685-8009-4965-829b-46870d7d5526")
+		)
+		(pin "5"
+			(uuid "ceac6a35-4618-466d-be45-39b01e12322c")
+		)
+		(pin "4"
+			(uuid "b6fc06aa-0fc3-418d-b5fa-c123743f9b86")
+		)
+		(pin "6"
+			(uuid "8fdb7185-816d-40a2-a78d-ce49e35b2a88")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 278.13 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180ca747-bce4-493e-a6c5-43bdc6f0586f")
+		(property "Reference" "D79"
+			(at 280.3241 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 280.3241 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 278.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 278.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 280.3241 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "9c347452-0463-402f-9767-9a2340f47857")
+		)
+		(pin "1"
+			(uuid "134e98c4-edb3-40ee-9f85-e9411f96eeaf")
+		)
+		(pin "3"
+			(uuid "17728f4f-634f-4567-b582-f3f33d87568a")
+		)
+		(pin "5"
+			(uuid "b585f96e-27ef-4477-9c21-7324aed54b9b")
+		)
+		(pin "4"
+			(uuid "bf73cc31-66d8-42ed-ab6d-6715ac1adc7d")
+		)
+		(pin "6"
+			(uuid "e433ae26-119f-4024-9590-e62cd152cd2a")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1868dca6-8de6-4437-98b7-f4ae5c8f1e43")
+		(property "Reference" "#PWR0183"
+			(at 176.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc93ef5e-3994-474d-b153-bb3ce2c0edd8")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18c17aa0-18ff-4935-b2d4-89ffd95f2e8d")
+		(property "Reference" "#PWR0153"
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6012a290-1bf1-4542-888b-8c053d7dd8ac")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ce196b-b872-42bd-b9ff-01d8e55031cb")
+		(property "Reference" "#PWR0178"
+			(at 237.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4585ca1e-0935-4897-9be3-04c0742b5f0f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 156.21 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d42e706-36f5-48d7-9cde-b48f9bdef48f")
+		(property "Reference" "D83"
+			(at 158.4041 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 158.4041 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 156.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 156.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 158.4041 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "00ed8fdd-d656-49c4-92b3-4c1b674bab70")
+		)
+		(pin "1"
+			(uuid "b09fdcd9-2b66-4c4f-9cec-b8798db0a1db")
+		)
+		(pin "3"
+			(uuid "8fb663a0-139a-406e-a23e-aa523782fb63")
+		)
+		(pin "5"
+			(uuid "c990fa26-6a54-48a0-928b-4381afd27a48")
+		)
+		(pin "4"
+			(uuid "2efe1561-be9d-451d-abb7-7721d30348d5")
+		)
+		(pin "6"
+			(uuid "f6bf5c34-73cb-4ddf-9eb4-590b41e2dcb5")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dbd39e5-56b0-4b26-857f-1fbbb6dacdf1")
+		(property "Reference" "#PWR0152"
+			(at 115.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b70f0d0-01d9-4781-835a-5490b9c943d9")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb47206-aea9-4225-a747-628b9a531ccf")
+		(property "Reference" "#PWR0155"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd82292-15af-418c-89d5-5a6ae1f0a10c")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20928c8b-ffb2-4311-8c52-8dc6d553e07b")
+		(property "Reference" "#PWR0172"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52946b2b-8c0b-4ca7-903f-22f709146871")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 237.49 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "270616ba-15d7-45f6-b760-ac8b3e437b05")
+		(property "Reference" "D77"
+			(at 239.6841 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 239.6841 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 239.6841 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "cfe88aac-cba1-42a2-9ac5-43612bcb1dd9")
+		)
+		(pin "1"
+			(uuid "a09434d2-e27c-4aca-bc91-81e4f2ec333b")
+		)
+		(pin "3"
+			(uuid "e6210530-424a-4bee-8574-b6c23156be2c")
+		)
+		(pin "5"
+			(uuid "6917abfe-1864-4c5e-8116-8114c8bed432")
+		)
+		(pin "4"
+			(uuid "7c13e4d8-0b13-4dfd-b8fa-9a6670e3590a")
+		)
+		(pin "6"
+			(uuid "b42a79ac-c850-4cec-b414-1ac5c5da1f36")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "273384e4-3f8c-4aec-893c-5336429174d0")
+		(property "Reference" "#PWR0133"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a691fd8-3d40-4ae2-b96b-212d7159adb3")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28bce298-2d5b-49ec-a172-5375a59cc37f")
+		(property "Reference" "#PWR0138"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73789f8c-db6d-4ecb-9c75-4987e00b3ea0")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2afcdd92-0212-46af-a26a-0cdc4840f8b0")
+		(property "Reference" "#PWR0142"
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e392521-3c2f-47d2-b031-01d1ddfe2f73")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f7a2387-d596-4566-a7dd-dc164501b6c7")
+		(property "Reference" "#PWR0180"
+			(at 115.57 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63680b24-6583-4ce7-8d70-11a7537c90d0")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3974a199-5163-4db7-b88c-31a023758acd")
+		(property "Reference" "#PWR0144"
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fe7ee26-e8a3-4e04-b5ed-4e04d9183de6")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a8253c9-e0a7-4123-8d1f-769b656b3a93")
+		(property "Reference" "#PWR0162"
+			(at 115.57 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "874cae27-8b3b-4e18-abf9-b517f90c9ec3")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b83c1f3-4be6-46c2-9eb3-468283374c4a")
+		(property "Reference" "#PWR0171"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dbefa79-eba6-4848-8e1d-a1c76bf1e091")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 115.57 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de7e251-b2a2-4b6a-9908-0fd8103f5fa2")
+		(property "Reference" "D81"
+			(at 117.7641 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 117.7641 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 117.7641 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f29fdf9e-764b-4e9a-aac9-b7e5574b9556")
+		)
+		(pin "1"
+			(uuid "f3b95d1a-af45-45b6-a6c7-f45f68e34934")
+		)
+		(pin "3"
+			(uuid "61ab6369-5724-49e0-bae0-ad6402d41a4d")
+		)
+		(pin "5"
+			(uuid "b283fb23-9922-43ec-baaf-01576b443106")
+		)
+		(pin "4"
+			(uuid "00c4cc02-cd84-4d63-967f-998237a7b7a6")
+		)
+		(pin "6"
+			(uuid "fd0d854f-db65-4e6e-ac11-249c50c4fa9b")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 217.17 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418e8a5e-c2db-412b-a392-1a0b7bee815c")
+		(property "Reference" "D76"
+			(at 219.3641 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 219.3641 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 219.3641 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "8efa221e-5404-4d71-ad2c-170285fe2b76")
+		)
+		(pin "1"
+			(uuid "fb34ea91-2443-4256-9125-6d5902a05223")
+		)
+		(pin "3"
+			(uuid "be057dd0-a5fa-4f81-86c1-cbc493217de8")
+		)
+		(pin "5"
+			(uuid "4977a708-01e5-4cfd-9e31-8c7572593a45")
+		)
+		(pin "4"
+			(uuid "457ea82d-b5ad-4faf-9c7e-f13fd0b52a54")
+		)
+		(pin "6"
+			(uuid "0c5e9651-5845-4bd0-8833-6f9dc88a6183")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 115.57 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c12d3f-73f2-4e29-8627-eba00a358beb")
+		(property "Reference" "D61"
+			(at 117.7641 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 117.7641 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 117.7641 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "05586c3d-1072-41b3-9fb4-a112b71adae1")
+		)
+		(pin "1"
+			(uuid "dc7480af-cfeb-439c-986b-93935badc082")
+		)
+		(pin "3"
+			(uuid "6deeaf1a-7aef-47f4-8ab9-6ca40338cbf7")
+		)
+		(pin "5"
+			(uuid "dc00f90c-ef40-4976-894b-e965c042ca24")
+		)
+		(pin "4"
+			(uuid "736751c6-e433-4f28-b276-99807a75c1c9")
+		)
+		(pin "6"
+			(uuid "243baf4c-eadd-47c0-bffe-1e6eb95bbd65")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 156.21 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a5d29c3-7a3f-4018-9461-4a3b0717d010")
+		(property "Reference" "D73"
+			(at 158.4041 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 158.4041 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 158.4041 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "4904dca3-8a21-40c6-aa04-3496907690e0")
+		)
+		(pin "1"
+			(uuid "8bd2f59b-3ea4-4805-b37b-6003627b1b93")
+		)
+		(pin "3"
+			(uuid "d96be2de-43ca-4fcb-b2f9-5357c03635cb")
+		)
+		(pin "5"
+			(uuid "01323cc1-7ca9-46d7-a538-1c72ee08adeb")
+		)
+		(pin "4"
+			(uuid "aaa8d611-5cc8-4ff9-9b6e-51d0be4dd096")
+		)
+		(pin "6"
+			(uuid "74300aef-20ad-4ff2-ad6b-d2b9bd94660f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 217.17 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7665f2-2f38-4305-bb9b-445601f03346")
+		(property "Reference" "D66"
+			(at 219.3641 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 219.3641 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 219.3641 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "894bf809-d6f5-430b-8b94-f1fcb9444b93")
+		)
+		(pin "1"
+			(uuid "0915ac09-c3e3-4960-9505-979c609ec106")
+		)
+		(pin "3"
+			(uuid "18ab3586-35e5-4210-b600-8cc89c57f519")
+		)
+		(pin "5"
+			(uuid "5e66e832-d716-4ca0-9930-4ac0799710e9")
+		)
+		(pin "4"
+			(uuid "7106b8ba-0a64-4ca0-a6d8-910cb803b3bc")
+		)
+		(pin "6"
+			(uuid "4952abad-00d7-4ac5-bcf0-ecd9776e6c86")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dc4d262-989a-42cd-aded-2100396f1760")
+		(property "Reference" "#PWR0151"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee9034a-6917-4cf4-9718-d577e27a2ee1")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 95.25 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53054717-063a-4188-8682-30a3ebc29848")
+		(property "Reference" "D60"
+			(at 97.4441 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 97.4441 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 97.4441 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "9978e8e4-cab7-4fcd-9013-908f20c4bb47")
+		)
+		(pin "1"
+			(uuid "9dcf5efa-93b6-4915-9de6-e77bf00c71e0")
+		)
+		(pin "3"
+			(uuid "ca247c36-2d50-4cfd-91f4-69d15bac2d9c")
+		)
+		(pin "5"
+			(uuid "61ce3d64-ceee-4d81-b229-d64f4cc46874")
+		)
+		(pin "4"
+			(uuid "7e8f6a0f-b378-40b2-ade2-55c6534c5128")
+		)
+		(pin "6"
+			(uuid "12b8da13-b810-4959-923c-49f575387bc9")
+		)
+		(instances
+			(project ""
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "545294bc-1532-4178-b11a-b74737b5c729")
+		(property "Reference" "#PWR0145"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f1743a-d635-4737-a3fd-4cc0d9853b9d")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571e9fcc-ab86-427e-b9de-993da8994304")
+		(property "Reference" "#PWR0168"
+			(at 237.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1730220-50d7-4410-8f81-a0856a4886f5")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 196.85 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a37753f-7555-48f1-b96c-97e3157d76b9")
+		(property "Reference" "D75"
+			(at 199.0441 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 199.0441 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 199.0441 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "71a6d0cb-c836-4ed8-b93a-8ed0bfe489c8")
+		)
+		(pin "1"
+			(uuid "5e0b31c0-7d7a-4b98-b1ef-3ea194c61ec8")
+		)
+		(pin "3"
+			(uuid "feed44d2-2efd-4eb9-8a12-de8fd111e42a")
+		)
+		(pin "5"
+			(uuid "47d11f6a-e601-4076-a99f-edb505476831")
+		)
+		(pin "4"
+			(uuid "ba5c0b0b-f327-4de3-80e4-d41b1cc35248")
+		)
+		(pin "6"
+			(uuid "09f13e93-e5fe-411f-9563-6be1b503aaf3")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b20e10c-d992-4482-ab49-f48cd4743a65")
+		(property "Reference" "#PWR0117"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7cb937b-d7d0-410a-a7c2-9015c1baf416")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 135.89 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e6ea710-f622-4663-9bf7-242fac76322b")
+		(property "Reference" "D62"
+			(at 138.0841 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 138.0841 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 138.0841 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "77cd5a68-643b-4dbd-92ed-b0eae60ef7b9")
+		)
+		(pin "1"
+			(uuid "9fe8b1e7-809e-4f39-aa46-e3acb96a04bd")
+		)
+		(pin "3"
+			(uuid "85b343af-51a3-44df-a2ed-56d279c8378d")
+		)
+		(pin "5"
+			(uuid "e1d91a57-872d-45c3-944c-dd62d968a22c")
+		)
+		(pin "4"
+			(uuid "6dbbb58e-ba15-4ae6-9feb-cc435a9553e0")
+		)
+		(pin "6"
+			(uuid "4ff1c4c7-7f5d-45ea-a20a-615b094a9782")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d2d5c0-fd13-4f82-bd05-51ec3bde8525")
+		(property "Reference" "#PWR0174"
+			(at 156.21 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac8267f-8247-4966-9c5d-b0c84bee361b")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 95.25 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6241ebd9-6da4-47f4-86d6-9f2cb76d76dc")
+		(property "Reference" "D80"
+			(at 97.4441 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 97.4441 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 95.25 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 95.25 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 97.4441 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "54a4fe96-1243-408e-af35-b4657e2da814")
+		)
+		(pin "1"
+			(uuid "ac9bd7cf-4f80-4460-9b78-79a0b7468827")
+		)
+		(pin "3"
+			(uuid "64ff013c-a0cf-47f4-96b0-da7a9a9e1e89")
+		)
+		(pin "5"
+			(uuid "a7ca4262-fc50-45d8-9328-cb84e58a0bd7")
+		)
+		(pin "4"
+			(uuid "dbadd81b-aa99-4467-9538-f1b2a6a2ed86")
+		)
+		(pin "6"
+			(uuid "d1cf0195-1039-4e73-bb2b-f31698e78719")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a03e925-4a8c-4fa8-b932-41e3c423c24d")
+		(property "Reference" "#PWR0182"
+			(at 156.21 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56336e6d-b7da-4043-8675-b5b07373c876")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c534dca-3ea6-465b-9bc5-5de3a8097962")
+		(property "Reference" "#PWR0167"
+			(at 217.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e9d6649-d79f-4af8-aa32-7d24e86de28c")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ddcd8ac-476f-4e88-972d-a0b9d088173b")
+		(property "Reference" "#PWR0134"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e8338c3-219b-4020-8ba1-074cd5b82fdf")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71243347-9c01-4571-951b-faf3b03ea70c")
+		(property "Reference" "#PWR0185"
+			(at 217.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb7f3ad-e3fe-48de-b1fa-bc7cd264ea38")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 237.49 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7279bf45-f51c-4b3a-b496-30ed1a7a743a")
+		(property "Reference" "D67"
+			(at 239.6841 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 239.6841 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 239.6841 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "e0191be9-d05f-4162-92dd-2c011035b8cf")
+		)
+		(pin "1"
+			(uuid "7d9db291-2c58-4a01-8364-8b565ae7d309")
+		)
+		(pin "3"
+			(uuid "3e1ff775-c72b-4ef8-bf39-995cafe9f661")
+		)
+		(pin "5"
+			(uuid "d57c8504-45df-4f34-82ee-c01d2ad0a9a2")
+		)
+		(pin "4"
+			(uuid "6158b3c8-ab35-40c0-afd4-4c209bf67183")
+		)
+		(pin "6"
+			(uuid "a94942a8-b2df-4f94-a249-8dffeff2924f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "732f878b-ffb1-4b61-84f5-b5f703959210")
+		(property "Reference" "#PWR0139"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6125f2db-3ead-4e63-bbb0-1a90a3f14598")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "778dac4c-1837-4edf-9973-2fd602e4408e")
+		(property "Reference" "#PWR0165"
+			(at 176.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f13594-7d4f-44b5-99c8-9ead195dc6ba")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a767196-f9ff-4efa-b490-0b68f669d8d4")
+		(property "Reference" "#PWR0181"
+			(at 135.89 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2e3e3dd-a4fb-4fa2-80cd-ca1f130a16c0")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 115.57 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b46c2e1-07cb-4d6a-821d-37dd865d3d4d")
+		(property "Reference" "D71"
+			(at 117.7641 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 117.7641 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 115.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 115.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 117.7641 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "7dee3232-6a5a-40e5-b9c6-8382d22f817a")
+		)
+		(pin "1"
+			(uuid "2064bc46-6b9b-4670-9f1f-debd7ea63fd7")
+		)
+		(pin "3"
+			(uuid "84b7943a-86b7-4bed-a57d-7e23ceee6ccc")
+		)
+		(pin "5"
+			(uuid "5aadda1a-a672-4d3a-b0f7-486b2328c4f5")
+		)
+		(pin "4"
+			(uuid "e92a31e4-3bdc-4ade-aa62-00a5e7acd601")
+		)
+		(pin "6"
+			(uuid "39d578e5-7a67-4169-8419-5a9b240e9d97")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea0cf74-0cb6-42e8-8448-d07c40a2ea2e")
+		(property "Reference" "#PWR0154"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676245c5-7124-4470-9222-abda888ed44d")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80cf9aea-7cd7-4d5b-a55d-fad914e0c08b")
+		(property "Reference" "#PWR0186"
+			(at 237.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acceab48-51fd-41f2-9c50-a72b045c6ad9")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82563f7a-7124-4260-b67e-5d32c5adab41")
+		(property "Reference" "#PWR0157"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbfd57ba-d334-48fc-9cc1-239d7b49b041")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac50cae-09c0-4d63-aaad-06241a09441c")
+		(property "Reference" "#PWR0147"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eefa9ea2-6a1d-4698-9a4c-1cfd87cb03a1")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e6af0c1-3e27-480d-aa76-5c806c9e85c8")
+		(property "Reference" "#PWR0148"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee02403-eb75-4a6e-a18e-84f3212cc08e")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 176.53 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "902837ca-9e08-4326-9f6b-1b6404c7c3e4")
+		(property "Reference" "D74"
+			(at 178.7241 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 178.7241 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 178.7241 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "cb37fe52-1cfb-4608-ad6c-35cd9ddf13ab")
+		)
+		(pin "1"
+			(uuid "0efd6c58-5b8e-4bf7-9944-33f203dd6147")
+		)
+		(pin "3"
+			(uuid "ad91f362-b0dd-4793-9b25-88267b2cafe1")
+		)
+		(pin "5"
+			(uuid "7921d5eb-bc0f-4fe1-8f52-28e5f4b2f69a")
+		)
+		(pin "4"
+			(uuid "8beff8df-f78d-4309-a761-c7f37fdb7bbc")
+		)
+		(pin "6"
+			(uuid "8663ebf2-6870-4d8f-bdea-4fae456509df")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 135.89 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90725cdc-ce27-4760-8b15-af9c78d15209")
+		(property "Reference" "D72"
+			(at 138.0841 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 138.0841 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 138.0841 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "4f40e46e-dc1d-405d-85ea-ac7cc6e61e14")
+		)
+		(pin "1"
+			(uuid "663c4e8a-d9b3-4abb-aef0-41ea2318b584")
+		)
+		(pin "3"
+			(uuid "f58b31af-3870-4e16-87fc-a0f638f4f938")
+		)
+		(pin "5"
+			(uuid "8a09717b-e692-4662-97a4-c4a69ec98735")
+		)
+		(pin "4"
+			(uuid "95ce77bd-1687-4983-b3fa-e31f6239836d")
+		)
+		(pin "6"
+			(uuid "e4182821-14cc-4909-8b98-4870a3300553")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 257.81 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95c9282c-f15d-4893-a040-1636ef00b3c8")
+		(property "Reference" "D78"
+			(at 260.0041 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 260.0041 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 260.0041 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f1c31bd5-816f-45dd-ab95-58e0e47cecdb")
+		)
+		(pin "1"
+			(uuid "fc7cab5b-0619-4823-abef-87417c996523")
+		)
+		(pin "3"
+			(uuid "4600b190-7547-42f1-906b-e36b7183d63c")
+		)
+		(pin "5"
+			(uuid "aa9d880b-d2bb-483a-a6b7-e8098e7716d4")
+		)
+		(pin "4"
+			(uuid "a9610575-7e4e-4271-af49-4f838f181415")
+		)
+		(pin "6"
+			(uuid "a2f88662-05db-47de-8801-38a507480926")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97fc82d7-e2ab-4874-8080-a838638188c9")
+		(property "Reference" "#PWR0150"
+			(at 278.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7269fd86-cbf4-47d0-8dbf-e31cb5e45a5f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0991ff-be2d-4711-b57e-55ad940ca3a0")
+		(property "Reference" "#PWR0143"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e346d7c-27b7-4c4f-8bd9-c32f9a25de85")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a12e4500-3b62-42b4-9a11-2373ae9a7e1c")
+		(property "Reference" "#PWR0146"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b34667-0bc6-4416-8a21-54123c04860f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 196.85 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f1ca38-52af-49e9-8638-b221c1ad0abe")
+		(property "Reference" "D85"
+			(at 199.0441 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 199.0441 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 199.0441 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "379fb0db-3436-421e-a83a-232dda6eeeeb")
+		)
+		(pin "1"
+			(uuid "c4522a6d-e9bb-41c0-8dbb-bb30a219ee29")
+		)
+		(pin "3"
+			(uuid "d24f018d-47bf-42d2-9ada-c62e180026c0")
+		)
+		(pin "5"
+			(uuid "a595d160-47f6-4a73-83d7-e8b776de8e76")
+		)
+		(pin "4"
+			(uuid "0facf3ee-e0bd-4cce-88dd-85ba24ab9c12")
+		)
+		(pin "6"
+			(uuid "0c4b4a7d-85d8-4830-9c95-077a05d637a9")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5973d3a-df0d-4f39-90a9-9cc64e4581be")
+		(property "Reference" "#PWR0149"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7ffc0da-fdf6-42a4-a007-b889e40fd328")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 135.89 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c32d7a-c9e1-4373-acb6-4729f438c6a3")
+		(property "Reference" "D82"
+			(at 138.0841 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 138.0841 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 138.0841 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "8d98c70c-09d8-4124-a9a8-743b38ed7389")
+		)
+		(pin "1"
+			(uuid "ab5c27ea-6b30-41d7-a2bc-fcdad051d242")
+		)
+		(pin "3"
+			(uuid "4166d1c2-5e87-44bf-ba47-d034bcd3d26b")
+		)
+		(pin "5"
+			(uuid "d584480d-8313-4234-ac9d-c79d2a16874f")
+		)
+		(pin "4"
+			(uuid "ab0529c0-4b0c-4eab-8775-02346c394ba8")
+		)
+		(pin "6"
+			(uuid "fe9585c9-6f2d-4e48-a060-edd7d1c2ea9e")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa4fa3db-e680-434e-9563-19dd7160bbfd")
+		(property "Reference" "#PWR0137"
+			(at 217.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cefe42d0-61fe-4331-afa4-5d75a5d28962")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abf68e24-30db-444c-b824-ff64ab7607e0")
+		(property "Reference" "#PWR0170"
+			(at 278.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2637e0f2-3ed5-4135-a279-384bae00c6a5")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfa6403-ab64-4096-9550-784d46239b91")
+		(property "Reference" "#PWR0166"
+			(at 196.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87eb4621-168b-4ad9-9166-6a6c28d024ea")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc974cb-bb94-4343-b5aa-6019810c1c9c")
+		(property "Reference" "#PWR0158"
+			(at 237.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ae0e16-fad8-4cf5-8853-548cf5811ab9")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 237.49 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b568004c-a88c-4d8b-81db-a5f76843ca97")
+		(property "Reference" "D87"
+			(at 239.6841 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 239.6841 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 239.6841 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "794df826-86a9-4517-b6af-f3ab1e0d29bc")
+		)
+		(pin "1"
+			(uuid "d9ee5dd7-9afb-4663-95d5-76bdd45d2e6d")
+		)
+		(pin "3"
+			(uuid "474626c4-64b1-4947-b611-6d68ac173a82")
+		)
+		(pin "5"
+			(uuid "3fed278c-776f-44df-9f2c-8b1a6167c5c3")
+		)
+		(pin "4"
+			(uuid "9510c5d0-f9fe-492e-80fc-da13beda2beb")
+		)
+		(pin "6"
+			(uuid "1d9da3dc-2f16-43b4-ac82-c3a97835ff34")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a4cc63-b197-42b2-b7dd-5856407f7743")
+		(property "Reference" "#PWR0135"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf06b87b-5b1d-4d11-a86c-c57a538320ce")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99f79f4-a81b-4ef9-bf25-49f46c33b497")
+		(property "Reference" "#PWR0173"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b648844-65a9-430d-bef1-19b60277ac2f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd29fa8e-1af4-45ed-b6dd-a7c32f0c9c02")
+		(property "Reference" "#PWR0159"
+			(at 257.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daafc949-df49-43f8-b3fa-d1b38925d807")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 217.17 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf2d46a6-1d4d-4445-9302-2f34261ec0da")
+		(property "Reference" "D86"
+			(at 219.3641 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 219.3641 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 217.17 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 217.17 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 219.3641 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "8d1f3110-da97-4653-82b4-2a8a2127e2a2")
+		)
+		(pin "1"
+			(uuid "02a1b1e1-cfb7-4b32-b67e-9b4e10b9635f")
+		)
+		(pin "3"
+			(uuid "61c5ac0d-9489-438d-b3cc-38ede11f427e")
+		)
+		(pin "5"
+			(uuid "dd77a247-9bb3-4e02-ac1b-06d305d4e00c")
+		)
+		(pin "4"
+			(uuid "74caa4c0-2fcb-47d1-8cda-d0f4a5ff01ab")
+		)
+		(pin "6"
+			(uuid "e75164a1-ee14-4d8f-8cd9-862e93e0e9a6")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 196.85 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4837a47-0343-4ab3-a46d-804e787b4a33")
+		(property "Reference" "D65"
+			(at 199.0441 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 199.0441 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 199.0441 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1089b370-4c99-49d8-9094-4946cea27a68")
+		)
+		(pin "1"
+			(uuid "b280d332-8aea-4a14-9fd7-cbcfed278ffb")
+		)
+		(pin "3"
+			(uuid "80911b08-d28f-4a1b-996d-4365418db7da")
+		)
+		(pin "5"
+			(uuid "41377575-d1cf-400b-913b-990f29b41fb3")
+		)
+		(pin "4"
+			(uuid "a65f4101-f498-485f-8d3a-95d5860f8338")
+		)
+		(pin "6"
+			(uuid "d5c25e9b-8af3-43a2-a89f-2bcfb92f4fd2")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d492ca34-51df-4095-9117-c4df63d8ebbd")
+		(property "Reference" "#PWR0141"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "213d18f0-6e55-4076-b855-4410667b2fd5")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58c0175-a5fb-439e-aadf-586edf2f77c2")
+		(property "Reference" "#PWR0132"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb65bbac-b719-4335-b531-1e5700a56af3")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e6541b-2a20-43b5-a947-cfd751e11d5b")
+		(property "Reference" "#PWR0161"
+			(at 95.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5368db6b-2bd9-4ecb-ba3e-821b80158018")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e65925-ebc5-40d3-909f-9f8ccdda5c06")
+		(property "Reference" "#PWR0156"
+			(at 196.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad066337-f12a-41c7-840e-cf00fb2e09ec")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d155e6-c6b7-484a-9d43-9a4b8c970340")
+		(property "Reference" "#PWR0176"
+			(at 196.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36dcda39-2927-47e1-a723-9e217431de8f")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3365301-4968-4922-a9a5-45c088eceb24")
+		(property "Reference" "#PWR0140"
+			(at 278.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a5875e-a15a-41d7-b2fe-b965a624fd85")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef7d28f4-3ae8-4b9e-b8fa-05abfde4fcc5")
+		(property "Reference" "#PWR0184"
+			(at 196.85 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9af193d-a271-4af5-9c92-7d50c3dc202a")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f56649e9-3154-40d4-942c-4ec105b087e3")
+		(property "Reference" "#PWR0175"
+			(at 176.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecac63b1-561e-44d2-a437-43cf20787086")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f77c4338-c766-4311-825a-ebb8dbf5b1f4")
+		(property "Reference" "#PWR0169"
+			(at 257.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c5b8e93-78eb-421d-b88d-c09b5c190771")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 278.13 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc22e93-70e3-4984-b60d-7a3f9700f7a2")
+		(property "Reference" "D69"
+			(at 280.3241 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 280.3241 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 278.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 278.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 280.3241 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b8bd0ad7-d974-47dd-ac6c-4036356dde83")
+		)
+		(pin "1"
+			(uuid "850b201f-3f50-40e3-9222-626a4fc940a0")
+		)
+		(pin "3"
+			(uuid "704a256c-bfff-466d-a3d3-7c305f3c9ccf")
+		)
+		(pin "5"
+			(uuid "f3e7853a-29d8-44a4-bc18-9af59dd349fa")
+		)
+		(pin "4"
+			(uuid "693473c8-553e-482a-9e3f-418b1e448643")
+		)
+		(pin "6"
+			(uuid "365422cc-856d-4038-9703-aef25e5e1773")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3fc8fa-5011-48db-a693-d8168b032bc7")
+		(property "Reference" "#PWR0160"
+			(at 278.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47062443-f826-4388-9ffc-8c445bd7e898")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 196.85 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef5fce8-a01b-455d-9a3f-5a2099864a27")
+		(property "Reference" "#PWR0136"
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efc6f2e7-f0e1-4aad-b913-946935f10cd1")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectSymbols:WS2813B-5V")
+		(at 156.21 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4dc8c5-c961-4180-bec7-afa590185d85")
+		(property "Reference" "D63"
+			(at 158.4041 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 158.4041 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041609_Worldsemi-WS2813B-V5_C965558.pdf"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965558"
+			(at 158.4041 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "55688139-ea44-460c-a307-1a5896eafd06")
+		)
+		(pin "1"
+			(uuid "9ab86e51-2d1a-4a8e-a877-8fe187f6ef0e")
+		)
+		(pin "3"
+			(uuid "13a05517-d5b5-41ae-9ad5-b071b584deca")
+		)
+		(pin "5"
+			(uuid "e02b948c-489e-4a45-920c-d102e4e45beb")
+		)
+		(pin "4"
+			(uuid "eaebeef3-015a-4c5e-908c-ee3941697182")
+		)
+		(pin "6"
+			(uuid "d628bcc3-90f3-4476-925b-44946988a7c3")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5/7bfcb3c1-eda6-411e-ae9d-af906deceedb"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
