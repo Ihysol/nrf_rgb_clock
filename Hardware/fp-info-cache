@@ -1,4 +1,4 @@
-23733085070027894
+23734821135146824
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85280,6 +85280,13 @@ Potentiometer vertical vishay
 0
 3
 3
+ProjectFootprints
+2450AT43A100E
+
+
+0
+2
+2
 ProjectFootprints
 WLCSP 300
 
