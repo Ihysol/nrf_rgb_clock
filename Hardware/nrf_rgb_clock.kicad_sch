@@ -4636,7 +4636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3p9"
+		(property "Value" "3p9 50V"
 			(at 119.38 135.8835 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404101552_HRE-CGA0201C0G3R9C500ET_C22374845.pdf"
 			(at 121.92 134.62 0)
 			(effects
 				(font
@@ -4664,6 +4664,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374845"
 			(at 121.92 134.62 0)
 			(effects
 				(font
@@ -5315,7 +5324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 301.9141 50.8 0)
 			(effects
 				(font
@@ -5416,7 +5425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.46 39.37 0)
 			(effects
 				(font
@@ -5425,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201121530_Samsung-Electro-Mechanics-CL21A106KBYQNNE_C2932476.pdf"
 			(at 124.46 39.37 0)
 			(effects
 				(font
@@ -5435,6 +5444,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2932476"
 			(at 124.46 39.37 0)
 			(effects
 				(font
@@ -5478,7 +5496,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "2u2 50V"
 			(at 92.71 123.1835 0)
 			(effects
 				(font
@@ -5487,7 +5505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -5496,7 +5514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041754_Chinocera-HGC0603R5225K500NTHJ_C7432769.pdf"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -5506,6 +5524,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7432769"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -5549,7 +5576,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "2u2 50V"
 			(at 101.6 135.8835 0)
 			(effects
 				(font
@@ -5558,7 +5585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5567,7 +5594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041754_Chinocera-HGC0603R5225K500NTHJ_C7432769.pdf"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5577,6 +5604,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7432769"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5756,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 168.91 177.8 0)
 			(effects
 				(font
@@ -5765,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 177.8 0)
 			(effects
 				(font
@@ -5775,6 +5811,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 168.91 177.8 0)
 			(effects
 				(font
@@ -5818,7 +5863,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n 50V"
 			(at 110.49 135.8835 0)
 			(effects
 				(font
@@ -5836,7 +5881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209011730_CCTC-TCC0201X7R103K500ZT_C5142551.pdf"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -5846,6 +5891,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5142551"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -5953,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1p2"
+		(property "Value" "1p2 50V"
 			(at 166.37 184.1435 0)
 			(effects
 				(font
@@ -5971,7 +6025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404101552_HRE-CGA0201C0G1R2C500ET_C22374839.pdf"
 			(at 163.83 182.88 0)
 			(effects
 				(font
@@ -5981,6 +6035,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374839"
 			(at 163.83 182.88 0)
 			(effects
 				(font
@@ -6099,7 +6162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -6108,7 +6171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -6118,6 +6181,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -6169,7 +6241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 121.92 90)
 			(effects
 				(font
@@ -6178,7 +6250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM15BD121SN1D_C337874.pdf"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -6188,6 +6260,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C337874"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -6638,7 +6719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 280.3241 50.8 0)
 			(effects
 				(font
@@ -7073,7 +7154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1p2"
+		(property "Value" "1p2 50V"
 			(at 156.21 184.1435 0)
 			(effects
 				(font
@@ -7091,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404101552_HRE-CGA0201C0G1R2C500ET_C22374839.pdf"
 			(at 153.67 182.88 0)
 			(effects
 				(font
@@ -7101,6 +7182,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22374839"
 			(at 153.67 182.88 0)
 			(effects
 				(font
@@ -7152,7 +7242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -7161,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -7171,6 +7261,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -7289,7 +7388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -7298,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402F104M500NT_C1581.pdf"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -7308,6 +7407,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1581"
 			(at 137.16 39.37 0)
 			(effects
 				(font

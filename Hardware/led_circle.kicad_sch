@@ -3186,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 160.9441 128.27 0)
 			(effects
 				(font
@@ -3409,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 320.9641 86.36 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 262.5441 128.27 0)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 120.3041 128.27 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 59.3441 128.27 0)
 			(effects
 				(font
@@ -4235,7 +4235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 77.1241 86.36 0)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 138.0841 86.36 0)
 			(effects
 				(font
@@ -4747,7 +4747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 56.8041 86.36 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 79.6641 168.91 0)
 			(effects
 				(font
@@ -5061,7 +5061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 341.2841 86.36 0)
 			(effects
 				(font
@@ -5152,7 +5152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 181.2641 45.72 0)
 			(effects
 				(font
@@ -5375,7 +5375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 140.6241 128.27 0)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 120.3041 45.72 0)
 			(effects
 				(font
@@ -6019,7 +6019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 99.9841 168.91 0)
 			(effects
 				(font
@@ -6176,7 +6176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 300.6441 86.36 0)
 			(effects
 				(font
@@ -6267,7 +6267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 97.4441 86.36 0)
 			(effects
 				(font
@@ -6358,7 +6358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 181.2641 168.91 0)
 			(effects
 				(font
@@ -6977,7 +6977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 178.7241 86.36 0)
 			(effects
 				(font
@@ -7200,7 +7200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 343.8241 45.72 0)
 			(effects
 				(font
@@ -7489,7 +7489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 59.3441 168.91 0)
 			(effects
 				(font
@@ -7976,7 +7976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 201.5841 168.91 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 117.7641 86.36 0)
 			(effects
 				(font
@@ -8290,7 +8290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 280.3241 86.36 0)
 			(effects
 				(font
@@ -8579,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 158.4041 86.36 0)
 			(effects
 				(font
@@ -8736,7 +8736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 201.5841 128.27 0)
 			(effects
 				(font
@@ -8827,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 201.5841 45.72 0)
 			(effects
 				(font
@@ -9182,7 +9182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 140.6241 45.72 0)
 			(effects
 				(font
@@ -9339,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 99.9841 128.27 0)
 			(effects
 				(font
@@ -9760,7 +9760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 181.2641 128.27 0)
 			(effects
 				(font
@@ -9917,7 +9917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 221.9041 128.27 0)
 			(effects
 				(font
@@ -10008,7 +10008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 260.0041 86.36 0)
 			(effects
 				(font
@@ -10693,7 +10693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 242.2241 128.27 0)
 			(effects
 				(font
@@ -10784,7 +10784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 221.9041 45.72 0)
 			(effects
 				(font
@@ -11139,7 +11139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 160.9441 45.72 0)
 			(effects
 				(font
@@ -11362,7 +11362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 262.5441 168.91 0)
 			(effects
 				(font
@@ -11717,7 +11717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 79.6641 128.27 0)
 			(effects
 				(font
@@ -11808,7 +11808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 140.6241 168.91 0)
 			(effects
 				(font
@@ -11899,7 +11899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 242.2241 45.72 0)
 			(effects
 				(font
@@ -11990,7 +11990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 59.3441 45.72 0)
 			(effects
 				(font
@@ -12081,7 +12081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 282.8641 45.72 0)
 			(effects
 				(font
@@ -12370,7 +12370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 282.8641 128.27 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 99.9841 45.72 0)
 			(effects
 				(font
@@ -12948,7 +12948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 323.5041 128.27 0)
 			(effects
 				(font
@@ -13039,7 +13039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 221.9041 168.91 0)
 			(effects
 				(font
@@ -13130,7 +13130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 199.0441 86.36 0)
 			(effects
 				(font
@@ -13287,7 +13287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 303.1841 128.27 0)
 			(effects
 				(font
@@ -13576,7 +13576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 303.1841 45.72 0)
 			(effects
 				(font
@@ -13865,7 +13865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 303.1841 168.91 0)
 			(effects
 				(font
@@ -14220,7 +14220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 343.8241 128.27 0)
 			(effects
 				(font
@@ -14377,7 +14377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 323.5041 45.72 0)
 			(effects
 				(font
@@ -14468,7 +14468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 262.5441 45.72 0)
 			(effects
 				(font
@@ -14757,7 +14757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 242.2241 168.91 0)
 			(effects
 				(font
@@ -14848,7 +14848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 120.3041 168.91 0)
 			(effects
 				(font
@@ -14939,7 +14939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 323.5041 168.91 0)
 			(effects
 				(font
@@ -15030,7 +15030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 282.8641 168.91 0)
 			(effects
 				(font
@@ -15319,7 +15319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 79.6641 45.72 0)
 			(effects
 				(font
@@ -15542,7 +15542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 239.6841 86.36 0)
 			(effects
 				(font
@@ -15633,7 +15633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 219.3641 86.36 0)
 			(effects
 				(font
@@ -15724,7 +15724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "WS2813b"
 			(at 160.9441 168.91 0)
 			(effects
 				(font
