@@ -1,4 +1,4 @@
-23734821135146824
+23748712615563368
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85288,6 +85288,34 @@ ProjectFootprints
 2
 2
 ProjectFootprints
+MP4562
+
+
+0
+8
+8
+ProjectFootprints
+NRS5040T3R3NMGJV
+NRS5040T3R3NMGJV
+Inductor
+0
+2
+2
+ProjectFootprints
+SHDR4W113P700X508_2X2_1039X1200X1200P
+1751163
+Connector
+0
+4
+2
+ProjectFootprints
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+ProjectFootprints
 WLCSP 300
 
 
@@ -88788,12 +88816,26 @@ Integrated Circuit
 26
 22
 SamacSys_Parts
+MP4562
+
+
+0
+8
+8
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+NRS5040T3R3NMGJV
+NRS5040T3R3NMGJV
+Inductor
+0
+2
+2
 SamacSys_Parts
 PMEG060T040CLPEZ
 PMEG060T040CLPEZ-1
@@ -88823,6 +88865,13 @@ Crystal or Oscillator
 4
 4
 SamacSys_Parts
+SHDR4W113P700X508_2X2_1039X1200X1200P
+1751163
+Connector
+0
+4
+2
+SamacSys_Parts
 SON50P200X200X80-9N
 WSON DSG-1
 Integrated Circuit
@@ -88850,6 +88899,13 @@ Integrated Circuit
 0
 6
 6
+SamacSys_Parts
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
 SamacSys_Parts
 TPD6E001RSERG4
 RSE0010A_H=0.6mm_2021
