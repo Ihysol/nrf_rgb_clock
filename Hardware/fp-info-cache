@@ -1,4 +1,4 @@
-23748712615563368
+23752190384975370
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85302,6 +85302,13 @@ Inductor
 2
 2
 ProjectFootprints
+QFN-48_EP_6x6_Pitch0.4mm
+
+
+0
+65
+49
+ProjectFootprints
 SHDR4W113P700X508_2X2_1039X1200X1200P
 1751163
 Connector
@@ -88794,6 +88801,13 @@ Fuse
 0
 2
 2
+SamacSys_Parts
+GWJTLPS1EMKKLNXX511150CR33
+GW JTLPS1.EM-KKLN-XX51-1-150-C-R33-3
+LED
+0
+4
+4
 SamacSys_Parts
 INDC3225X120N
 3.2x2.5x1mm-2

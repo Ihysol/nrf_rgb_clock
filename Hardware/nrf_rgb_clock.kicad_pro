@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.16,
         0.3,
         0.5
       ],
@@ -212,6 +213,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -575,6 +580,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNR",
+          "name": "MNR",
+          "show": true
         }
       ],
       "filter_string": "",
