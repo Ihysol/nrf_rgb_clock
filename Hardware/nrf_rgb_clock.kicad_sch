@@ -7083,7 +7083,7 @@
 			(uuid "476c3e5e-d1d4-4bf8-9ccc-545df437df69")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C7")
 					(unit 1)
@@ -7347,7 +7347,7 @@
 			(uuid "2054704f-4513-4280-a1ce-70ee8b751793")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR010")
 					(unit 1)
@@ -7413,7 +7413,7 @@
 			(uuid "089b6ede-297e-460e-b1d8-f36852057a22")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR08")
 					(unit 1)
@@ -7841,7 +7841,7 @@
 			(uuid "14d76653-e4bb-47c3-8000-32e2ea0f2e1c")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR011")
 					(unit 1)
@@ -7981,7 +7981,7 @@
 			(uuid "d42e607e-4efa-4604-9247-223258693ff1")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR01")
 					(unit 1)
@@ -8286,7 +8286,7 @@
 			(uuid "183cb618-d985-4e4d-b36b-49e72717697b")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "L4")
 					(unit 1)
@@ -8438,7 +8438,7 @@
 			(uuid "711fba8a-f00e-49be-9698-48f164a4460b")
 		)
 		(instances
-			(project ""
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "J3")
 					(unit 1)
@@ -8974,7 +8974,7 @@
 			(uuid "805ac92d-9e3d-46d6-92d0-d99ccc99415e")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C1")
 					(unit 1)
@@ -9062,7 +9062,7 @@
 			(uuid "6e9d9cd4-f099-435b-9239-65f9a6856c45")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C4")
 					(unit 1)
@@ -9151,7 +9151,7 @@
 			(uuid "bb454891-a614-49aa-a70d-e34681db2c2e")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C5")
 					(unit 1)
@@ -9290,7 +9290,7 @@
 			(uuid "2dd8849d-e467-47f9-b067-869499992531")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR05")
 					(unit 1)
@@ -9376,7 +9376,7 @@
 			(uuid "a75bcda4-f5ed-4675-a977-ac14a4ab7d2d")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "L2")
 					(unit 1)
@@ -9521,7 +9521,7 @@
 			(uuid "17ce23fb-7c1d-42b5-9e50-532cbdbe6094")
 		)
 		(instances
-			(project ""
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C17")
 					(unit 1)
@@ -9610,7 +9610,7 @@
 			(uuid "84143c17-5e37-43ff-b129-8ac4ea620add")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C6")
 					(unit 1)
@@ -9676,7 +9676,7 @@
 			(uuid "2c5ee6f0-0670-4f41-bf44-a3b6b096df15")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR02")
 					(unit 1)
@@ -9764,7 +9764,7 @@
 			(uuid "a83ea38f-c601-4c47-8e37-e436329cbd2b")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C8")
 					(unit 1)
@@ -9830,7 +9830,7 @@
 			(uuid "15782af2-9d32-493a-a53b-d3a041ac934b")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR012")
 					(unit 1)
@@ -10032,7 +10032,7 @@
 			(uuid "d6101db9-d37b-4fa0-a873-485ae0c16a0f")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C3")
 					(unit 1)
@@ -10120,7 +10120,7 @@
 			(uuid "c42109a2-a348-41dd-ba87-a940185c694d")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "FB1")
 					(unit 1)
@@ -10516,7 +10516,7 @@
 			(uuid "d3a5d9f4-114b-4c72-8e93-7674dc758e49")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "L3")
 					(unit 1)
@@ -10697,7 +10697,7 @@
 			(uuid "4cc895fc-0352-4316-abf8-1f45b867a7b9")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR07")
 					(unit 1)
@@ -11031,7 +11031,7 @@
 			(uuid "b7ee3279-98de-430c-94d3-139702d84c47")
 		)
 		(instances
-			(project ""
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "AE1")
 					(unit 1)
@@ -11672,7 +11672,7 @@
 			(uuid "f00ff7b8-ea9f-4090-b267-6d25fb184a64")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR06")
 					(unit 1)
@@ -11978,7 +11978,7 @@
 			(uuid "8c5b6520-2212-471d-af0f-fe20f2f65edb")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR03")
 					(unit 1)
@@ -12203,7 +12203,7 @@
 			(uuid "6cb79ffc-8ac1-4967-aa11-224ed3655afd")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "Y1")
 					(unit 1)
@@ -12406,7 +12406,7 @@
 			(uuid "2f40b619-d1aa-46b7-be7f-81ad3c0be7f9")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C9")
 					(unit 1)
@@ -12615,7 +12615,7 @@
 			(uuid "dd4c6c37-a9c0-4503-94f6-bafbd8cbdc3e")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "L1")
 					(unit 1)
@@ -12972,7 +12972,7 @@
 			(uuid "40a451ac-0cc5-4705-9739-e70977912120")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C2")
 					(unit 1)
@@ -13200,7 +13200,7 @@
 			(uuid "c7ce6480-51eb-455e-abcd-89f9e7800cbe")
 		)
 		(instances
-			(project ""
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "U4")
 					(unit 1)
@@ -13332,7 +13332,7 @@
 			(uuid "4ded5b90-ba66-44f0-a286-7ec611105baf")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR09")
 					(unit 1)
@@ -13485,7 +13485,7 @@
 			(uuid "d24d3f51-37b9-47fa-93e6-ef208e391a37")
 		)
 		(instances
-			(project "smart_insole"
+			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR04")
 					(unit 1)
