@@ -8604,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965558"
+		(property "LCSC" "C114592"
 			(at 347.6341 50.8 0)
 			(effects
 				(font
@@ -9370,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?p"
+		(property "Value" "18p"
 			(at 137.16 180.3462 0)
 			(effects
 				(font
@@ -9407,6 +9407,15 @@
 			)
 		)
 		(property "MFN" ""
+			(at 134.62 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161409"
 			(at 134.62 179.07 0)
 			(effects
 				(font
@@ -11654,7 +11663,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965558"
+		(property "LCSC" "C114592"
 			(at 326.0441 50.8 0)
 			(effects
 				(font
@@ -11962,85 +11971,6 @@
 			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "#PWR0382")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ee3bc86-c667-4c6b-b93c-f68e21fa3f14")
-		(property "Reference" "C18"
-			(at 147.32 177.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "?p"
-			(at 147.32 180.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 144.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 144.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab9a667f-303d-46fc-92e9-8d963b87c414")
-		)
-		(pin "2"
-			(uuid "753a43d6-2d6b-48e1-a876-5f068bd32060")
-		)
-		(instances
-			(project "nrf_rgb_clock"
-				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -12370,7 +12300,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C37635386"
+		(property "LCSC" "C9009"
 			(at 165.1 173.99 90)
 			(effects
 				(font
@@ -12585,7 +12515,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42380964"
+		(property "LCSC" "C223066 "
 			(at 99.06 62.23 90)
 			(effects
 				(font
@@ -12637,7 +12567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 166.37 110.49 0)
 			(effects
 				(font
@@ -12664,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C18221128"
 			(at 166.37 110.49 0)
 			(effects
 				(font
@@ -13891,6 +13821,94 @@
 			(project "nrf_rgb_clock"
 				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1350bd9-ff83-4906-af32-614a672ca9f9")
+		(property "Reference" "C18"
+			(at 147.32 177.8062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 147.32 180.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C161409"
+			(at 144.78 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5adbb6b-ece4-42a0-bc4b-41e5b29e84fc")
+		)
+		(pin "2"
+			(uuid "cbc4dcf0-21fc-4ee0-9984-f2cb09e9208e")
+		)
+		(instances
+			(project "nrf_rgb_clock"
+				(path "/80f7418f-7da9-43c7-b9f4-1e4eb07741f5"
+					(reference "C18")
 					(unit 1)
 				)
 			)
