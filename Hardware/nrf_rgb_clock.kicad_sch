@@ -8371,6 +8371,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C8269"
+			(at 26.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adee3a15-b723-45f9-8275-736a732843bd")
 		)
