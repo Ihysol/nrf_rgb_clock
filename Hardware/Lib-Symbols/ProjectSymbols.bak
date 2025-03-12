@@ -201,7 +201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ProjectFootprints:QFN-48_EP_6x6_Pitch0.4mm"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -210,7 +210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54L15/page/pdf/nRF54L15_nRF54L10_nRF54L05_Datasheet_v0.8.pdf"
 			(at 17.78 21.59 0)
 			(effects
 				(font
@@ -226,6 +226,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MNR" " 949-NRF54L15-QFAA-R "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "nRF54L15-QFxx_0_0"
