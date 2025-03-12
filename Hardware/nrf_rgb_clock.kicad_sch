@@ -11284,7 +11284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectFootprints:2450AT43A100E"
+		(property "Footprint" "ProjectFootprints:2450AT18A100"
 			(at 238.76 167.005 0)
 			(effects
 				(font
@@ -11293,7 +11293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404021210_Johanson-Dielectrics-2450AT43A100E_C2917720.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410122023_Johanson-Dielectrics-2450AT18A100E_C89334.pdf"
 			(at 238.76 167.005 0)
 			(effects
 				(font
@@ -11311,7 +11311,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2917720"
+		(property "LCSC" "C89334"
 			(at 241.3 171.45 0)
 			(effects
 				(font
@@ -11888,6 +11888,15 @@
 		)
 		(property "Description" "60V 3A Schottky Barrier Rectifier Diode, SMC"
 			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C12632"
+			(at 88.9 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
