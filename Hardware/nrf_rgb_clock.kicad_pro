@@ -524,12 +524,6 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "lcsc_new",
-          "name": "lcsc_new",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
@@ -574,6 +568,12 @@
           "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "lcsc_new",
+          "name": "lcsc_new",
           "show": true
         },
         {
@@ -623,7 +623,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "lcsc_new"
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

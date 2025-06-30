@@ -1792,7 +1792,6 @@
 	(hierarchical_label "LED_DI"
 		(shape input)
 		(at 83.82 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,7 +1803,6 @@
 	(hierarchical_label "LED_DO"
 		(shape input)
 		(at 248.92 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
