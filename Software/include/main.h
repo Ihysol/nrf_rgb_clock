@@ -2,14 +2,11 @@
 #define __MAIN_H__
 
 #include <Arduino.h>
-#include <WiFi.h>
-#include <FastLED.h>
-#include <time.h>
-#include <mymath.h>
-
-/** @brief WiFi credentials */
-const char *ssid = "ssid";
-const char *password = "pass";
+#include <WiFi.h>           // wifi for NTP
+#include <FastLED.h>        // led circle library
+#include <time.h>           // obviously
+#include <mymath.h>         // helper functions   
+#include <wifi_secrets.h>  
 
 /** @brief NTP configuration */
 const char *ntpServer = "pool.ntp.org"; ///< NTP server address
@@ -27,7 +24,7 @@ const int daylightOffset_sec = 3600;    ///< Daylight saving time offset in seco
 #define COLOR_ORDER GRB ///< Color order of LEDs
 #define BRIGHTNESS 127   ///< LED brightness
 
-#define FADE_TRAIL_LENGTH 50
+#define FADE_TRAIL_LENGTH 30
 #define HUE_STEP 2
 
 /// Array for segment LEDs
