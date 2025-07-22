@@ -1,68 +1,41 @@
 #include <main.h>
 
+#define USE_NTP
+
 typedef void (*ModeFunction)(const tm &timeinfo);
 ModeFunction currentMode = nullptr;
 
-void modeRainbow(const tm &timeinfo)
-{
-  int currentSecond = timeinfo.tm_sec-1; // offset for carry over
-  if (currentSecond == NUM_CIRCLE)
-  {
-    fill_solid(ledsCircle, NUM_CIRCLE, CRGB::Black);
-  }
-  else
-  {
-
-    for (int i = 0; i <= currentSecond && i < NUM_CIRCLE; i++)
-    {
-      ledsCircle[i] = currentColorCircle;
-    }
-  }
-}
-
 void modeRainbowFade(const tm &timeinfo)
 {
-  int currentSecond = timeinfo.tm_sec-1; // offset by 1
-  if (currentSecond < 0)
+  int currentSecond = (timeinfo.tm_sec * NUM_CIRCLE) / 60;
+
+  if (startup)
   {
-    fill_solid(ledsCircle, NUM_CIRCLE, CRGB::Black);
+    startup = false;
+    int currentSecond = (timeinfo.tm_sec * NUM_CIRCLE) / 60;
+
+    for (int i = 0; i < FADE_TRAIL_LENGTH; i++)
+    {
+      int secondIndex = (currentSecond - i + NUM_CIRCLE) % NUM_CIRCLE;
+      uint8_t hue = (colorHue + i * HUE_STEP) % 255;
+      float fade = (float)i / (float)FADE_TRAIL_LENGTH;
+      tempLedsCircle[secondIndex] = lerp(CHSV(hue, 255, 255), CRGB::Black, fade);
+    }
   }
-  else
+
+  tempLedsCircle[currentSecond] = CHSV(colorHue, 255, 255);
+
+  int nextSecond = (currentSecond +1) % NUM_CIRCLE;
+  tempLedsCircle[nextSecond] = CHSV((colorHue + HUE_STEP) % 255, 255, 100);
+
+  for (int i = 0; i < NUM_CIRCLE; i++)
   {
-
-    // initial fill at startup
-    if (startup == true)
-    {
-      startup = false;
-      fill_solid(ledsCircle, NUM_CIRCLE, CRGB::Black); // Turn off all LEDs
-
-      for (int i = 0; i <= currentSecond && i < NUM_CIRCLE; i++)
-      {
-        ledsCircle[i] = CHSV(i * HUE_STEP, 255, 255);
-        tempLedsCircle[i] = ledsCircle[i];
-      }
-      colorHue += currentSecond * HUE_STEP;
-    }
-
-    // rainbow with fade effect
-    for (int i = 0; i <= currentSecond && i < NUM_CIRCLE; i++)
-    {
-      // fade leds that are not displaying current second
-      if (i < currentSecond)
-      {
-        int age = currentSecond - i;
-        float fadeAmount = clamp((float)age / (float)FADE_TRAIL_LENGTH, 0.0f, 1.0f);
-        ledsCircle[i] = lerp(tempLedsCircle[i], CRGB::Black, fadeAmount);
-      }
-      else
-      {
-        ledsCircle[i] = CRGB::Black;
-        tempLedsCircle[i] = ledsCircle[i];
-      }
-    }
-    ledsCircle[currentSecond] = currentColorCircle;
-    tempLedsCircle[currentSecond] = ledsCircle[currentSecond];
+    int age = (currentSecond - i + NUM_CIRCLE) % NUM_CIRCLE;
+    float fadeAmount = clamp((float)age / (float)FADE_TRAIL_LENGTH, 0.0f, 1.0f);
+    ledsCircle[i] = lerp(tempLedsCircle[i], CRGB::Black, fadeAmount);
   }
+
+  ledsCircle[currentSecond] = CHSV(colorHue, 255*0.75, 255);
 }
 
 void modeSimple(const tm &timeinfo)
@@ -75,10 +48,12 @@ void modeSimple(const tm &timeinfo)
 
     for (int i = 0; i <= timeinfo.tm_sec; i++)
     {
-      if(i%5 == 0)
+      if (i % 5 == 0)
       {
         ledsCircle[i] = CHSV(0, 255, 255);
-      } else {
+      }
+      else
+      {
         ledsCircle[i] = CHSV(144, 255, 255);
       }
     }
@@ -113,8 +88,11 @@ void initHardware()
   fill_solid(ledsCircle, NUM_CIRCLE, CRGB::Black);
   FastLED.show();
 
-  /// Connect to WiFi
-  WiFi.begin(ssid, password);
+  struct tm timeinfo;
+
+/// Synchronize time via NTP
+#ifdef USE_NTP
+  WiFi.begin(wifi_ssid, wifi_password);
   Serial.print("Connecting to WiFi");
   while (WiFi.status() != WL_CONNECTED)
   {
@@ -122,26 +100,17 @@ void initHardware()
     Serial.print(".");
   }
   Serial.println("\nConnected!");
-
-  /// Synchronize time via NTP
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
-  bool ntpSuccess = true;
-
-  struct tm timeinfo;
-  for (int attempt = 1; attempt <= maxNtpRetires; attempt++)
+  if (getLocalTime(&timeinfo))
   {
-    if (getLocalTime(&timeinfo))
-    {
-      ntpSuccess = true;
-      Serial.printf("Time synced via NTP after %d attempt(s).\n", attempt);
-      break;
-    }
-    else
-    {
-      Serial.printf("NTP attempt %d failed. Retrying...\n", attempt);
-      delay(retryDelayMs);
-    }
+    initialEpochTime = mktime(&timeinfo);
+    millisAtSync = millis();
+  } else 
+  {
+    Serial.printf("NTP attempt failed. Rebooting ESP32...\n");
+    esp_restart();
   }
+#endif
 }
 
 /**
@@ -153,16 +122,13 @@ void setup()
 {
   initHardware();
 
-  int mode = 1;
+  int mode = 0;
   switch (mode)
   {
   case 0:
-    currentMode = modeRainbow;
-    break;
-  case 1:
     currentMode = modeRainbowFade;
     break;
-  case 2:
+  case 1:
     currentMode = modeSimple;
     break;
   }
@@ -175,15 +141,18 @@ void setup()
  */
 void loop()
 {
+  time_t nowEpoch = initialEpochTime + (millis() - millisAtSync) /1000;
+  struct tm timeinfo;
+  localtime_r(&nowEpoch, &timeinfo);
+
   unsigned long now = millis();
 
-  struct tm timeinfo;
-  if (!getLocalTime(&timeinfo))
-  {
-    Serial.println("Time not available!");
-  }
-  else
-  {
+  // if (!getLocalTime(&timeinfo))
+  // {
+  //   Serial.println("Time not available!");
+  // }
+  // else
+  // {
     currentColorCircle = CHSV(colorHue, 255, 255);
     currentColorDigits = CHSV(colorHue + 16, 255, 255);
 
@@ -204,6 +173,6 @@ void loop()
       colorHue += HUE_STEP;
       FastLED.show();
     }
-  }
+  // }
   delay(200); ///< Smooth refresh rate
 }

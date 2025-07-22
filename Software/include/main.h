@@ -22,9 +22,9 @@ const int daylightOffset_sec = 3600;    ///< Daylight saving time offset in seco
 
 #define LED_TYPE WS2813 ///< Type of LED strip
 #define COLOR_ORDER GRB ///< Color order of LEDs
-#define BRIGHTNESS 127   ///< LED brightness
+#define BRIGHTNESS 255*0.25   ///< LED brightness
 
-#define FADE_TRAIL_LENGTH 30
+#define FADE_TRAIL_LENGTH 40
 #define HUE_STEP 2
 
 /// Array for segment LEDs
@@ -125,5 +125,8 @@ static int lastHueUpdate = 0;
 
 const int maxNtpRetires = 10;
 const unsigned long retryDelayMs = 2000;
+
+time_t initialEpochTime = 0;
+unsigned long millisAtSync = 0;
 
 #endif
